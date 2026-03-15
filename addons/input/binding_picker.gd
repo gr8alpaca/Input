@@ -158,7 +158,6 @@ func _on_input_texture_changed(input_texture: InputTexture) -> void:
 	if label.visible:
 		var event_text: String = get_event_text(input_texture.force_joy_only)
 		label.text = event_text
-		print("%s texture changed | %s '%s' | Event Text: %s" % [action, label, label.text, event_text])
 	
 	if input_texture.has_texture():
 		texture_rect.show()

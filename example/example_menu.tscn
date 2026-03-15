@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dtybhkxygraxu"]
 
 [ext_resource type="Script" uid="uid://3fnlhynjvjjy" path="res://example/example_menu.gd" id="1_5jyth"]
+[ext_resource type="Resource" uid="uid://2dweko0g4tco" path="res://addons/input/data/input_data.tres" id="2_ivh36"]
 [ext_resource type="PackedScene" uid="uid://cqit3qb37m5hs" path="res://addons/input/binding_picker.tscn" id="3_ivh36"]
 
 [node name="ExampleMenu" type="Control" unique_id=443434475]
@@ -11,6 +12,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_5jyth")
+input_data = ExtResource("2_ivh36")
 metadata/_edit_lock_ = true
 
 [node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=2093903248]
@@ -20,6 +22,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+scroll_vertical = 73
 
 [node name="PickerVBox" type="VBoxContainer" parent="ScrollContainer" unique_id=603242978]
 layout_mode = 2
@@ -92,3 +95,21 @@ custom_minimum_size = Vector2(158, 61)
 layout_mode = 2
 action_mode = 0
 action = &"ui_down"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/PickerVBox" unique_id=599568655]
+layout_mode = 2
+
+[node name="Save" type="Button" parent="ScrollContainer/PickerVBox/HBoxContainer" unique_id=927365478]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Save"
+
+[node name="Load" type="Button" parent="ScrollContainer/PickerVBox/HBoxContainer" unique_id=1012905275]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Load"
+
+[connection signal="pressed" from="ScrollContainer/PickerVBox/HBoxContainer/Save" to="." method="_on_save_pressed"]
+[connection signal="pressed" from="ScrollContainer/PickerVBox/HBoxContainer/Load" to="." method="_on_load_pressed"]

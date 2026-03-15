@@ -112,7 +112,6 @@ func _init() -> void:
 	Input.joy_connection_changed.connect.call_deferred(_on_joy_connection_changed)
 	data_loaded.connect(init_sync, CONNECT_ONE_SHOT)
 
-
 func init_sync() -> void:
 	var sync_actions: Dictionary[StringName, Array] = get_sync_actions()
 	for key_action: StringName in sync_actions:
@@ -121,8 +120,6 @@ func init_sync() -> void:
 			for key_event: InputEvent in action_get_event_list(key_action):
 				if not value_event_list.any(key_event.is_match):
 					action_add_event(value_action, key_event)
-
-
 
 func rebind(action: StringName, event: InputEvent) -> void:
 	if InputMap.action_has_event(action, event):
@@ -151,7 +148,7 @@ func action_erase_event(action: StringName, event: InputEvent, emit_action_chang
 	if emit_action_change_signal:
 		action_changed.emit(action)
 
-func action_add_event(action: StringName, event: InputEvent) -> void:
+func action_add_event(action: StringName, event: InputEvent, emit_action_change_signal: bool = true) -> void:
 	if not event or action_has_event(action, event): 
 		return
 	
@@ -160,9 +157,9 @@ func action_add_event(action: StringName, event: InputEvent) -> void:
 	for sub_action: StringName in get_sync_actions().get(action, []):
 		action_add_event(sub_action, event)
 	
-	print("'%s' added event %s" % [action, event_get_display_text(event)])
 	action_event_added.emit(action, event)
-	emit_signal(action_changed.get_name(), action)
+	if emit_action_change_signal:
+		action_changed.emit(action)
 
 func get_action_texture(action: StringName, force_device_type: DeviceType = DeviceType.INVALID) -> Texture2D:
 	var device_type: DeviceType = force_device_type if force_device_type > -2 else current_device_type
@@ -363,6 +360,30 @@ func event_get_display_text(event: InputEvent) -> String:
 	if event is InputEventMouseButton:
 		return event.as_text()
 	return ""
+
+func save_override() -> void:
+	ProjectSettings.save_custom("override.cfg")
+
+func save_cfg(cfg: ConfigFile = ConfigFile.new()) -> ConfigFile:
+	for action: String in InputMap.get_actions():
+		cfg.set_value("input", action, {
+			deadzone = InputMap.action_get_deadzone(action),
+			events = InputMap.action_get_events(action),
+		})
+	return cfg
+
+func load_cfg(cfg: ConfigFile) -> void:
+	for action: String in cfg.get_section_keys("input"):
+		var map: Dictionary = cfg.get_value("input", action, {})
+		InputMap.action_set_deadzone(action, map.get("deadzone", 0.5))
+		
+		for event: InputEvent in InputMap.action_get_events(action):
+			action_erase_event(action, event, false)
+		
+		for event: InputEvent in map.get("events", []):
+			action_add_event(action, event, false)
+			
+		action_changed.emit(action)
 
 ## All internal signals are connected to be emitted again as a user_signal in Input. Last arg must be StringName.
 func _relay_signal(...args: Array) -> void:
