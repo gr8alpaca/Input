@@ -1,0 +1,14 @@
+[gd_resource type="Texture2D" script_class="InputTexture" format=3 uid="uid://ckiyxs2dctmut"]
+
+[ext_resource type="Script" uid="uid://cructevqayyd5" path="res://addons/input/input_texture.gd" id="1_w0dq6"]
+
+[sub_resource type="InputEventAction" id="InputEventAction_1c1sj"]
+action = &"shoot"
+
+[resource]
+resource_local_to_scene = false
+resource_name = ""
+script = ExtResource("1_w0dq6")
+event = SubResource("InputEventAction_1c1sj")
+force_platform = 0
+metadata/_custom_type_script = "uid://cructevqayyd5"

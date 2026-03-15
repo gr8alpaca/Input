@@ -1,0 +1,94 @@
+[gd_scene format=3 uid="uid://dtybhkxygraxu"]
+
+[ext_resource type="Script" uid="uid://3fnlhynjvjjy" path="res://example/example_menu.gd" id="1_5jyth"]
+[ext_resource type="PackedScene" uid="uid://cqit3qb37m5hs" path="res://addons/input/binding_picker.tscn" id="3_ivh36"]
+
+[node name="ExampleMenu" type="Control" unique_id=443434475]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5jyth")
+metadata/_edit_lock_ = true
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=2093903248]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PickerVBox" type="VBoxContainer" parent="ScrollContainer" unique_id=603242978]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+
+[node name="Left" parent="ScrollContainer/PickerVBox" unique_id=1038387038 instance=ExtResource("3_ivh36")]
+custom_minimum_size = Vector2(85, 61)
+layout_mode = 2
+action_mode = 0
+action = &"left"
+
+[node name="Right" parent="ScrollContainer/PickerVBox" unique_id=1277158444 instance=ExtResource("3_ivh36")]
+custom_minimum_size = Vector2(105, 61)
+layout_mode = 2
+action_mode = 0
+action = &"right"
+
+[node name="Up" parent="ScrollContainer/PickerVBox" unique_id=802141463 instance=ExtResource("3_ivh36")]
+custom_minimum_size = Vector2(69, 61)
+layout_mode = 2
+action_mode = 0
+action = &"up"
+
+[node name="Down" parent="ScrollContainer/PickerVBox" unique_id=2050226281 instance=ExtResource("3_ivh36")]
+custom_minimum_size = Vector2(114, 61)
+layout_mode = 2
+action_mode = 0
+action = &"down"
+
+[node name="Jump" parent="ScrollContainer/PickerVBox" unique_id=416773449 instance=ExtResource("3_ivh36")]
+custom_minimum_size = Vector2(105, 61)
+layout_mode = 2
+action_mode = 0
+action = &"jump"
+
+[node name="Shoot" parent="ScrollContainer/PickerVBox" unique_id=1700222185 instance=ExtResource("3_ivh36")]
+custom_minimum_size = Vector2(115, 61)
+layout_mode = 2
+action_mode = 0
+action = &"shoot"
+disallowed_mouse_buttons = Array[int]([])
+
+[node name="Clear" parent="ScrollContainer/PickerVBox" unique_id=1085065763 instance=ExtResource("3_ivh36")]
+custom_minimum_size = Vector2(105, 61)
+layout_mode = 2
+action_mode = 0
+action = &"clear"
+
+[node name="UiLeft" parent="ScrollContainer/PickerVBox" unique_id=2060467446 instance=ExtResource("3_ivh36")]
+custom_minimum_size = Vector2(128, 61)
+layout_mode = 2
+action_mode = 0
+action = &"ui_left"
+
+[node name="UiRight" parent="ScrollContainer/PickerVBox" unique_id=563498128 instance=ExtResource("3_ivh36")]
+custom_minimum_size = Vector2(148, 61)
+layout_mode = 2
+action_mode = 0
+action = &"ui_right"
+
+[node name="UiUp" parent="ScrollContainer/PickerVBox" unique_id=1289480262 instance=ExtResource("3_ivh36")]
+custom_minimum_size = Vector2(112, 61)
+layout_mode = 2
+action_mode = 0
+action = &"ui_up"
+
+[node name="UiDown" parent="ScrollContainer/PickerVBox" unique_id=1116954457 instance=ExtResource("3_ivh36")]
+custom_minimum_size = Vector2(158, 61)
+layout_mode = 2
+action_mode = 0
+action = &"ui_down"

@@ -1,0 +1,128 @@
+[gd_scene format=3 uid="uid://cqit3qb37m5hs"]
+
+[ext_resource type="Script" uid="uid://dg84ke5hm0rer" path="res://addons/input/binding_picker.gd" id="1_od6pl"]
+[ext_resource type="Script" uid="uid://cructevqayyd5" path="res://addons/input/input_texture.gd" id="2_i2i2q"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_od6pl"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tpx6x"]
+bg_color = Color(0.859375, 0.859375, 0.859375, 0.19607843)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_us7fk"]
+bg_color = Color(0, 0, 0, 0.23137255)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i2i2q"]
+bg_color = Color(1, 1, 1, 0.19607843)
+
+[sub_resource type="LabelSettings" id="LabelSettings_od6pl"]
+font_size = 32
+
+[sub_resource type="InputEventAction" id="InputEventAction_tpx6x"]
+
+[sub_resource type="Texture2D" id="Texture2D_l4cpw"]
+resource_local_to_scene = true
+resource_name = ""
+script = ExtResource("2_i2i2q")
+event = SubResource("InputEventAction_tpx6x")
+force_platform = -1
+
+[sub_resource type="Texture2D" id="Texture2D_118oy"]
+resource_local_to_scene = true
+resource_name = ""
+script = ExtResource("2_i2i2q")
+event = SubResource("InputEventAction_tpx6x")
+force_joy_only = true
+force_platform = -1
+
+[node name="BindingPicker" type="Button" unique_id=1038387038 node_paths=PackedStringArray("container", "action_label", "key_texture_rect", "key_label", "joy_texture_rect", "joy_label", "key_margin_container", "joy_margin_container")]
+custom_minimum_size = Vector2(26, 61)
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 8.0
+grow_horizontal = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = SubResource("StyleBoxEmpty_od6pl")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_tpx6x")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_od6pl")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_us7fk")
+theme_override_styles/focus = SubResource("StyleBoxFlat_i2i2q")
+script = ExtResource("1_od6pl")
+disallowed_keys = Array[int]([4194326, 4194325, 4194328])
+container = NodePath("MarginContainer")
+action_label = NodePath("MarginContainer/ElementContainer/ActionLabel")
+key_texture_rect = NodePath("MarginContainer/ElementContainer/KeyMarginContainer/KeyTextureRect")
+key_label = NodePath("MarginContainer/ElementContainer/KeyMarginContainer/KeyLabel")
+joy_texture_rect = NodePath("MarginContainer/ElementContainer/JoyMarginContainer/JoyTextureRect")
+joy_label = NodePath("MarginContainer/ElementContainer/JoyMarginContainer/JoyLabel")
+key_margin_container = NodePath("MarginContainer/ElementContainer/KeyMarginContainer")
+joy_margin_container = NodePath("MarginContainer/ElementContainer/JoyMarginContainer")
+metadata/_custom_type_script = "uid://dg84ke5hm0rer"
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=518953511]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 17
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 0
+theme_override_constants/margin_bottom = 8
+metadata/_edit_lock_ = true
+
+[node name="ElementContainer" type="HBoxContainer" parent="MarginContainer" unique_id=2059444913]
+layout_mode = 2
+mouse_filter = 2
+theme_type_variation = &"SettingsPicker"
+alignment = 1
+
+[node name="ActionLabel" type="Label" parent="MarginContainer/ElementContainer" unique_id=1257660432]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 60.0
+label_settings = SubResource("LabelSettings_od6pl")
+
+[node name="KeyMarginContainer" type="MarginContainer" parent="MarginContainer/ElementContainer" unique_id=571228639]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 20.0
+mouse_filter = 2
+
+[node name="KeyTextureRect" type="TextureRect" parent="MarginContainer/ElementContainer/KeyMarginContainer" unique_id=108094843]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 15.0
+mouse_filter = 2
+texture = SubResource("Texture2D_l4cpw")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="KeyLabel" type="Label" parent="MarginContainer/ElementContainer/KeyMarginContainer" unique_id=106614571]
+visible = false
+layout_mode = 2
+label_settings = SubResource("LabelSettings_od6pl")
+horizontal_alignment = 1
+clip_text = true
+
+[node name="JoyMarginContainer" type="MarginContainer" parent="MarginContainer/ElementContainer" unique_id=1539490059]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 20.0
+mouse_filter = 2
+
+[node name="JoyTextureRect" type="TextureRect" parent="MarginContainer/ElementContainer/JoyMarginContainer" unique_id=362223877]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 15.0
+mouse_filter = 2
+texture = SubResource("Texture2D_118oy")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="JoyLabel" type="Label" parent="MarginContainer/ElementContainer/JoyMarginContainer" unique_id=1072197524]
+visible = false
+layout_mode = 2
+label_settings = SubResource("LabelSettings_od6pl")
+horizontal_alignment = 1
+clip_text = true

@@ -1,0 +1,621 @@
+[gd_resource type="Resource" script_class="InputData" format=3 uid="uid://2dweko0g4tco"]
+
+[ext_resource type="Texture2D" uid="uid://b412dm4rqi3mk" path="res://addons/input/data/textures/joy/xbox/xbox_button_color_a_outline.svg" id="1_flcra"]
+[ext_resource type="Texture2D" uid="uid://bcebnyt0ov6ih" path="res://addons/input/data/textures/joy/xbox/xbox_button_color_b_outline.svg" id="2_h56q5"]
+[ext_resource type="Texture2D" uid="uid://blcphej6kuotw" path="res://addons/input/data/textures/joy/xbox/xbox_button_back_icon.svg" id="3_ajdjv"]
+[ext_resource type="Texture2D" uid="uid://nxmk5lee3plr" path="res://addons/input/data/textures/joy/xbox/xbox_dpad_down_outline.svg" id="4_rmdak"]
+[ext_resource type="Texture2D" uid="uid://t7g76quwabte" path="res://addons/input/data/textures/joy/xbox/xbox_dpad_left_outline.svg" id="5_0yr7u"]
+[ext_resource type="Texture2D" uid="uid://cpetl0w0y3jsx" path="res://addons/input/data/textures/joy/xbox/xbox_dpad_right_outline.svg" id="6_31i7t"]
+[ext_resource type="Texture2D" uid="uid://cbfa30lv3dq1l" path="res://addons/input/data/textures/joy/xbox/xbox_dpad_up_outline.svg" id="7_imhuh"]
+[ext_resource type="Texture2D" uid="uid://d3n0d2ct8qqo3" path="res://addons/input/data/textures/joy/xbox/xbox_guide.svg" id="8_vs73h"]
+[ext_resource type="Texture2D" uid="uid://737s6bdayxij" path="res://addons/input/data/textures/joy/xbox/xbox_lb_outline.svg" id="9_kp0md"]
+[ext_resource type="Texture2D" uid="uid://biamdel8bxvbo" path="res://addons/input/data/textures/joy/xbox/xbox_stick_side_l.svg" id="10_41vne"]
+[ext_resource type="Texture2D" uid="uid://m7qxmt2guc2j" path="res://addons/input/data/textures/joy/xbox/xbox_stick_l_down.svg" id="11_c8owc"]
+[ext_resource type="Texture2D" uid="uid://bfd1cea0d0oes" path="res://addons/input/data/textures/joy/xbox/xbox_stick_l_left.svg" id="12_jk2hk"]
+[ext_resource type="Texture2D" uid="uid://bss6es1rmcaps" path="res://addons/input/data/textures/joy/xbox/xbox_stick_l_right.svg" id="13_wfq4b"]
+[ext_resource type="Texture2D" uid="uid://dit3w27uff6d6" path="res://addons/input/data/textures/joy/xbox/xbox_stick_l_up.svg" id="14_ov7w4"]
+[ext_resource type="Texture2D" uid="uid://dgul6bjl5q7kj" path="res://addons/input/data/textures/joy/xbox/xbox_button_share_outline.svg" id="15_vqquc"]
+[ext_resource type="Texture2D" uid="uid://v67slns3xdl5" path="res://addons/input/data/textures/joy/xbox/xbox_rb_outline.svg" id="16_td8mh"]
+[ext_resource type="Texture2D" uid="uid://dedjgfnvjsm53" path="res://addons/input/data/textures/joy/xbox/xbox_stick_side_r.svg" id="17_4jfhs"]
+[ext_resource type="Texture2D" uid="uid://chaust0uhxyx3" path="res://addons/input/data/textures/joy/xbox/xbox_stick_r_down.svg" id="18_f0sgk"]
+[ext_resource type="Texture2D" uid="uid://cuweeiyduua67" path="res://addons/input/data/textures/joy/xbox/xbox_stick_r_left.svg" id="19_2ee7h"]
+[ext_resource type="Texture2D" uid="uid://cnko4xfy4qbnq" path="res://addons/input/data/textures/joy/xbox/xbox_stick_r_right.svg" id="20_8iy2d"]
+[ext_resource type="Texture2D" uid="uid://c3pilf6g1oj2t" path="res://addons/input/data/textures/joy/xbox/xbox_stick_r_up.svg" id="21_cmejk"]
+[ext_resource type="Texture2D" uid="uid://dh3kbyjti0uts" path="res://addons/input/data/textures/joy/xbox/xbox_button_start_icon_outline.svg" id="22_4jmmi"]
+[ext_resource type="Texture2D" uid="uid://daq31fq03cpas" path="res://addons/input/data/textures/joy/xbox/xbox_lt_outline.svg" id="23_52r0p"]
+[ext_resource type="Texture2D" uid="uid://b1rlslib0ckax" path="res://addons/input/data/textures/joy/xbox/xbox_rt_outline.svg" id="24_g1dwi"]
+[ext_resource type="Texture2D" uid="uid://b7e7mq0tg8sjy" path="res://addons/input/data/textures/joy/xbox/xbox_button_color_x_outline.svg" id="25_hr41r"]
+[ext_resource type="Texture2D" uid="uid://cjcipxtew8sq4" path="res://addons/input/data/textures/joy/xbox/xbox_button_color_y_outline.svg" id="26_874lp"]
+[ext_resource type="Texture2D" uid="uid://mgxp3p0vlab3" path="res://addons/input/data/textures/joy/switch/switch_buttons_down.svg" id="27_sed33"]
+[ext_resource type="Texture2D" uid="uid://b330kn0k44mb0" path="res://addons/input/data/textures/joy/switch/switch_buttons_left.svg" id="28_5p75k"]
+[ext_resource type="Texture2D" uid="uid://bfmtouysfefw4" path="res://addons/input/data/textures/joy/switch/switch_buttons_right.svg" id="29_fb0c1"]
+[ext_resource type="Texture2D" uid="uid://dgs35q4wcbffl" path="res://addons/input/data/textures/joy/switch/switch_buttons_up.svg" id="30_p844x"]
+[ext_resource type="Texture2D" uid="uid://cxqxr4r7crogm" path="res://addons/input/data/textures/joy/ps/playstation_button_color_cross_outline.svg" id="31_ny0tp"]
+[ext_resource type="Texture2D" uid="uid://cmn8v70vmfnkh" path="res://addons/input/data/textures/joy/ps/playstation_button_color_circle_outline.svg" id="32_qks8q"]
+[ext_resource type="Texture2D" uid="uid://buqdm78wkujut" path="res://addons/input/data/textures/joy/ps/playstation5_button_options_alternative_outline.svg" id="33_83q3c"]
+[ext_resource type="Texture2D" uid="uid://c8v4pv5vefdjh" path="res://addons/input/data/textures/joy/ps/playstation_dpad_down.svg" id="34_ox45o"]
+[ext_resource type="Texture2D" uid="uid://bivx0etgtmvhs" path="res://addons/input/data/textures/joy/ps/playstation_dpad_left.svg" id="35_65851"]
+[ext_resource type="Texture2D" uid="uid://bt6an45s0x10j" path="res://addons/input/data/textures/joy/ps/playstation_dpad_right.svg" id="36_glma4"]
+[ext_resource type="Texture2D" uid="uid://dxt7oof3sjvjd" path="res://addons/input/data/textures/joy/ps/playstation_dpad_up.svg" id="37_111fk"]
+[ext_resource type="Texture2D" uid="uid://dcw65fwra324m" path="res://addons/input/data/textures/joy/ps/playstation_trigger_r1_alternative_outline.svg" id="38_1ftra"]
+[ext_resource type="Texture2D" uid="uid://t1mcby7shnl6" path="res://addons/input/data/textures/joy/ps/playstation_stick_side_l.svg" id="39_yjngv"]
+[ext_resource type="Texture2D" uid="uid://c5lkatdwe1ei4" path="res://addons/input/data/textures/joy/ps/playstation_trigger_l2_outline.svg" id="40_dvmb5"]
+[ext_resource type="Texture2D" uid="uid://ka634rfysph4" path="res://addons/input/data/textures/joy/ps/playstation5_button_mute_outline.svg" id="41_pgko1"]
+[ext_resource type="Texture2D" uid="uid://biw5eke74aaea" path="res://addons/input/data/textures/joy/ps/playstation_trigger_r2_alternative_outline.svg" id="42_8ffa8"]
+[ext_resource type="Texture2D" uid="uid://dg4vtduhqhwav" path="res://addons/input/data/textures/joy/ps/playstation_stick_side_r.svg" id="43_y8cqe"]
+[ext_resource type="Texture2D" uid="uid://q5y8w346jvys" path="res://addons/input/data/textures/joy/ps/playstation_trigger_r2_outline.svg" id="44_pr1ux"]
+[ext_resource type="Texture2D" uid="uid://bon0d0vk5fg51" path="res://addons/input/data/textures/joy/ps/playstation5_button_create_alternative_outline.svg" id="45_pcek7"]
+[ext_resource type="Texture2D" uid="uid://ielcl75lyftf" path="res://addons/input/data/textures/joy/ps/playstation_button_color_square_outline.svg" id="46_a0r16"]
+[ext_resource type="Texture2D" uid="uid://wcbsejv8j7j" path="res://addons/input/data/textures/joy/ps/playstation_button_color_triangle_outline.svg" id="47_ot18p"]
+[ext_resource type="Texture2D" uid="uid://dfembjbmqqnnw" path="res://addons/input/data/textures/joy/switch/switch_button_b_outline.svg" id="48_x3qjr"]
+[ext_resource type="Texture2D" uid="uid://cah6mqfq0mrxa" path="res://addons/input/data/textures/joy/switch/switch_button_a_outline.svg" id="49_88uhp"]
+[ext_resource type="Texture2D" uid="uid://degi8hxe1agdo" path="res://addons/input/data/textures/joy/switch/switch_button_minus_outline.svg" id="50_lxmf1"]
+[ext_resource type="Texture2D" uid="uid://bvlhkllwmkx0j" path="res://addons/input/data/textures/joy/switch/switch_dpad_down.svg" id="51_wt4fh"]
+[ext_resource type="Texture2D" uid="uid://b5ny87nl65gvp" path="res://addons/input/data/textures/joy/switch/switch_dpad_left.svg" id="52_3yvw1"]
+[ext_resource type="Texture2D" uid="uid://b4xfeq0pf0yq7" path="res://addons/input/data/textures/joy/switch/switch_dpad_right.svg" id="53_cyku6"]
+[ext_resource type="Texture2D" uid="uid://dmkr4l8bbpx2j" path="res://addons/input/data/textures/joy/switch/switch_dpad_up.svg" id="54_r1qit"]
+[ext_resource type="Texture2D" uid="uid://bpd1xj0j4l0dl" path="res://addons/input/data/textures/joy/switch/switch_button_l_outline.svg" id="55_gv22g"]
+[ext_resource type="Texture2D" uid="uid://bgpdx62f0ou1i" path="res://addons/input/data/textures/joy/switch/switch_stick_side_l.svg" id="56_l1rbj"]
+[ext_resource type="Texture2D" uid="uid://byxftog6w7red" path="res://addons/input/data/textures/joy/switch/switch_button_sl_outline.svg" id="57_k872o"]
+[ext_resource type="Texture2D" uid="uid://dmw5w4qfgqmam" path="res://addons/input/data/textures/joy/switch/switch_button_sync_outline.svg" id="58_dg3xs"]
+[ext_resource type="Texture2D" uid="uid://c47vuvoqj3vmv" path="res://addons/input/data/textures/joy/switch/switch_button_r_outline.svg" id="59_s5qaa"]
+[ext_resource type="Texture2D" uid="uid://cp36lbydiqbfo" path="res://addons/input/data/textures/joy/switch/switch_stick_side_r.svg" id="60_pmldm"]
+[ext_resource type="Texture2D" uid="uid://c41mx43dibkjd" path="res://addons/input/data/textures/joy/switch/switch_button_sr_outline.svg" id="61_b6ckt"]
+[ext_resource type="Texture2D" uid="uid://d3t2c5187nbov" path="res://addons/input/data/textures/joy/switch/switch_button_plus_outline.svg" id="62_a65w7"]
+[ext_resource type="Texture2D" uid="uid://bk2512eq5qhkw" path="res://addons/input/data/textures/joy/switch/switch_button_y_outline.svg" id="63_jqp8a"]
+[ext_resource type="Texture2D" uid="uid://dbnujrje3vej5" path="res://addons/input/data/textures/joy/switch/switch_button_x_outline.svg" id="64_oqdob"]
+[ext_resource type="Texture2D" uid="uid://cagkah1koal5g" path="res://addons/input/data/textures/keyboard/keyboard_0_outline.svg" id="65_i0gnw"]
+[ext_resource type="Texture2D" uid="uid://db68ics15eto2" path="res://addons/input/data/textures/keyboard/keyboard_1_outline.svg" id="66_hp53f"]
+[ext_resource type="Texture2D" uid="uid://b6a1b287s26rd" path="res://addons/input/data/textures/keyboard/keyboard_2_outline.svg" id="67_i1s2f"]
+[ext_resource type="Texture2D" uid="uid://dalwajt5d5l6d" path="res://addons/input/data/textures/keyboard/keyboard_3_outline.svg" id="68_b2exr"]
+[ext_resource type="Texture2D" uid="uid://csov17esodsri" path="res://addons/input/data/textures/keyboard/keyboard_4_outline.svg" id="69_5ew47"]
+[ext_resource type="Texture2D" uid="uid://h4ecbe0npafe" path="res://addons/input/data/textures/keyboard/keyboard_5_outline.svg" id="70_hb1op"]
+[ext_resource type="Texture2D" uid="uid://dgo0b58f822s5" path="res://addons/input/data/textures/keyboard/keyboard_6_outline.svg" id="71_3g145"]
+[ext_resource type="Texture2D" uid="uid://nonrhj6i0irh" path="res://addons/input/data/textures/keyboard/keyboard_7_outline.svg" id="72_tugmf"]
+[ext_resource type="Texture2D" uid="uid://cwn33wxgkcn0s" path="res://addons/input/data/textures/keyboard/keyboard_8_outline.svg" id="73_5465g"]
+[ext_resource type="Texture2D" uid="uid://bievf6fu8ol2d" path="res://addons/input/data/textures/keyboard/keyboard_9_outline.svg" id="74_l61gu"]
+[ext_resource type="Texture2D" uid="uid://6ouilyeucuio" path="res://addons/input/data/textures/keyboard/keyboard_a_outline.svg" id="75_60anh"]
+[ext_resource type="Texture2D" uid="uid://cievkp82fmye2" path="res://addons/input/data/textures/keyboard/keyboard_alt_outline.svg" id="76_hy3wj"]
+[ext_resource type="Texture2D" uid="uid://dr2jvwpe5rskt" path="res://addons/input/data/textures/keyboard/keyboard_b_outline.svg" id="77_mthml"]
+[ext_resource type="Texture2D" uid="uid://s4x2m7q8m1y7" path="res://addons/input/data/textures/keyboard/keyboard_back_slash_outline.svg" id="78_3wti2"]
+[ext_resource type="Texture2D" uid="uid://cybiw0bljn275" path="res://addons/input/data/textures/keyboard/keyboard_backspace_icon_outline.svg" id="79_5kf2y"]
+[ext_resource type="Texture2D" uid="uid://d2kx1liqbqu0x" path="res://addons/input/data/textures/keyboard/keyboard_bracket_open_outline.svg" id="80_fonlg"]
+[ext_resource type="Texture2D" uid="uid://dj40x3fxvk574" path="res://addons/input/data/textures/keyboard/keyboard_bracket_close_outline.svg" id="81_igoxi"]
+[ext_resource type="Texture2D" uid="uid://ctxd1c02wkkqk" path="res://addons/input/data/textures/keyboard/keyboard_c_outline.svg" id="82_veuxy"]
+[ext_resource type="Texture2D" uid="uid://bqepge7vkm53b" path="res://addons/input/data/textures/keyboard/keyboard_capslock_icon_outline.svg" id="83_1i4rv"]
+[ext_resource type="Texture2D" uid="uid://02h636ap3jt8" path="res://addons/input/data/textures/keyboard/keyboard_comma_outline.svg" id="84_a0yup"]
+[ext_resource type="Texture2D" uid="uid://bumb2h0o8mgoh" path="res://addons/input/data/textures/keyboard/keyboard_ctrl_outline.svg" id="85_wv440"]
+[ext_resource type="Texture2D" uid="uid://cgvhu0eji8wkj" path="res://addons/input/data/textures/keyboard/keyboard_d_outline.svg" id="86_l1quh"]
+[ext_resource type="Texture2D" uid="uid://csjpnip8p0268" path="res://addons/input/data/textures/keyboard/keyboard_delete_outline.svg" id="87_pcwk5"]
+[ext_resource type="Texture2D" uid="uid://b7s2fq46ij7ts" path="res://addons/input/data/textures/keyboard/keyboard_arrow_down_outline.svg" id="88_0635y"]
+[ext_resource type="Texture2D" uid="uid://dpi51ppewv3gi" path="res://addons/input/data/textures/keyboard/keyboard_e_outline.svg" id="89_jiwyd"]
+[ext_resource type="Texture2D" uid="uid://qvc5x2omnij6" path="res://addons/input/data/textures/keyboard/keyboard_end_outline.svg" id="90_v6nr8"]
+[ext_resource type="Texture2D" uid="uid://clh83m586qhf4" path="res://addons/input/data/textures/keyboard/keyboard_enter_outline.svg" id="91_mri27"]
+[ext_resource type="Texture2D" uid="uid://bebpbj1d0kjcr" path="res://addons/input/data/textures/keyboard/keyboard_equals_outline.svg" id="92_yjyud"]
+[ext_resource type="Texture2D" uid="uid://dwf4g2o4e1ryf" path="res://addons/input/data/textures/keyboard/keyboard_escape_outline.svg" id="93_ceqlc"]
+[ext_resource type="Texture2D" uid="uid://bu3oeugyfq1ap" path="res://addons/input/data/textures/keyboard/keyboard_f_outline.svg" id="94_eq0hv"]
+[ext_resource type="Texture2D" uid="uid://cjhui8khwoi8e" path="res://addons/input/data/textures/keyboard/keyboard_f1_outline.svg" id="95_06d5i"]
+[ext_resource type="Texture2D" uid="uid://c0imyetgg1o2u" path="res://addons/input/data/textures/keyboard/keyboard_f10_outline.svg" id="96_0f6p1"]
+[ext_resource type="Texture2D" uid="uid://byg7uon0yuupc" path="res://addons/input/data/textures/keyboard/keyboard_f11_outline.svg" id="97_6ro1g"]
+[ext_resource type="Texture2D" uid="uid://dbs2v8rh84b8t" path="res://addons/input/data/textures/keyboard/keyboard_f12_outline.svg" id="98_oeqt7"]
+[ext_resource type="Texture2D" uid="uid://bvvu0t5d3ffu0" path="res://addons/input/data/textures/keyboard/keyboard_f2_outline.svg" id="99_43vvp"]
+[ext_resource type="Texture2D" uid="uid://bfdpq0cyohyby" path="res://addons/input/data/textures/keyboard/keyboard_f3_outline.svg" id="100_qtw3g"]
+[ext_resource type="Texture2D" uid="uid://dsxeo2ro0ieia" path="res://addons/input/data/textures/keyboard/keyboard_f4_outline.svg" id="101_xwpcl"]
+[ext_resource type="Texture2D" uid="uid://dmqhjrnwx5gf2" path="res://addons/input/data/textures/keyboard/keyboard_f5_outline.svg" id="102_stq82"]
+[ext_resource type="Texture2D" uid="uid://bmlxq2le4vch" path="res://addons/input/data/textures/keyboard/keyboard_f6_outline.svg" id="103_xtyk8"]
+[ext_resource type="Texture2D" uid="uid://ca20fyevl4bn0" path="res://addons/input/data/textures/keyboard/keyboard_f7_outline.svg" id="104_u2vm7"]
+[ext_resource type="Texture2D" uid="uid://dvikxx1cb7wpv" path="res://addons/input/data/textures/keyboard/keyboard_f8_outline.svg" id="105_0thtl"]
+[ext_resource type="Texture2D" uid="uid://bquht6k8b2vta" path="res://addons/input/data/textures/keyboard/keyboard_f9_outline.svg" id="106_fvrhf"]
+[ext_resource type="Texture2D" uid="uid://cj3nqdqa5a0tl" path="res://addons/input/data/textures/keyboard/keyboard_g_outline.svg" id="107_e55qy"]
+[ext_resource type="Texture2D" uid="uid://d0x8guyeajrjl" path="res://addons/input/data/textures/keyboard/keyboard_h_outline.svg" id="108_jcn7l"]
+[ext_resource type="Texture2D" uid="uid://ceer7pept81ah" path="res://addons/input/data/textures/keyboard/keyboard_home_outline.svg" id="109_8of31"]
+[ext_resource type="Texture2D" uid="uid://rqm7do2qwb4n" path="res://addons/input/data/textures/keyboard/keyboard_i_outline.svg" id="110_chc8i"]
+[ext_resource type="Texture2D" uid="uid://di2vgim75q4im" path="res://addons/input/data/textures/keyboard/keyboard_insert_outline.svg" id="111_j7ulg"]
+[ext_resource type="Texture2D" uid="uid://dxhcibc0njcjs" path="res://addons/input/data/textures/keyboard/keyboard_j_outline.svg" id="112_gbqp7"]
+[ext_resource type="Texture2D" uid="uid://cv7x6f642b72e" path="res://addons/input/data/textures/keyboard/keyboard_k_outline.svg" id="113_3y40p"]
+[ext_resource type="Texture2D" uid="uid://orxmgrgwovv0" path="res://addons/input/data/textures/keyboard/keyboard_l_outline.svg" id="114_mqs7p"]
+[ext_resource type="Texture2D" uid="uid://0nnfnjfanrr2" path="res://addons/input/data/textures/keyboard/keyboard_arrow_left_outline.svg" id="115_ctiyc"]
+[ext_resource type="Texture2D" uid="uid://xfkg0b8wntpx" path="res://addons/input/data/textures/keyboard/keyboard_m_outline.svg" id="116_1juht"]
+[ext_resource type="Texture2D" uid="uid://bdkmi3a3npag4" path="res://addons/input/data/textures/keyboard/keyboard_minus_outline.svg" id="117_plxv5"]
+[ext_resource type="Texture2D" uid="uid://bqr3fxf4on1pu" path="res://addons/input/data/textures/keyboard/keyboard_n_outline.svg" id="118_6uwro"]
+[ext_resource type="Texture2D" uid="uid://cxb3o8g4a47iy" path="res://addons/input/data/textures/keyboard/keyboard_numlock_outline.svg" id="119_qyvpl"]
+[ext_resource type="Texture2D" uid="uid://bj14oylcp16lr" path="res://addons/input/data/textures/keyboard/keyboard_o_outline.svg" id="120_ie0oo"]
+[ext_resource type="Texture2D" uid="uid://kkt71cu5mqdg" path="res://addons/input/data/textures/keyboard/keyboard_p_outline.svg" id="121_5ip4e"]
+[ext_resource type="Texture2D" uid="uid://chopt3n2whh8a" path="res://addons/input/data/textures/keyboard/keyboard_page_down_outline.svg" id="122_k1m4w"]
+[ext_resource type="Texture2D" uid="uid://dr5i2vxv34ss1" path="res://addons/input/data/textures/keyboard/keyboard_page_up_outline.svg" id="123_mhp4b"]
+[ext_resource type="Texture2D" uid="uid://dgew74r87t568" path="res://addons/input/data/textures/keyboard/keyboard_period_outline.svg" id="124_efm4w"]
+[ext_resource type="Texture2D" uid="uid://xk6jj3y4fvkk" path="res://addons/input/data/textures/keyboard/keyboard_plus_outline.svg" id="125_xq7x6"]
+[ext_resource type="Texture2D" uid="uid://dpt5pugc3ljl4" path="res://addons/input/data/textures/keyboard/keyboard_q_outline.svg" id="126_4cp2q"]
+[ext_resource type="Texture2D" uid="uid://c10pvq7cf7un" path="res://addons/input/data/textures/keyboard/keyboard_tilde_outline.svg" id="127_4yk1r"]
+[ext_resource type="Texture2D" uid="uid://cuxtaxctnr4la" path="res://addons/input/data/textures/keyboard/keyboard_r_outline.svg" id="128_tdgws"]
+[ext_resource type="Texture2D" uid="uid://bhdu6gvowp5yv" path="res://addons/input/data/textures/keyboard/keyboard_arrow_right_outline.svg" id="129_7canp"]
+[ext_resource type="Texture2D" uid="uid://bbhcfxhe1fem2" path="res://addons/input/data/textures/keyboard/keyboard_s_outline.svg" id="130_32h51"]
+[ext_resource type="Texture2D" uid="uid://dsxiuw4im5nh6" path="res://addons/input/data/textures/keyboard/keyboard_shift_outline.svg" id="131_os3j4"]
+[ext_resource type="Texture2D" uid="uid://c1tjjoi1jrr11" path="res://addons/input/data/textures/keyboard/keyboard_slash_outline.svg" id="132_b3yxp"]
+[ext_resource type="Texture2D" uid="uid://31jnj7vk0pb3" path="res://addons/input/data/textures/keyboard/keyboard_space_outline.svg" id="133_r8qua"]
+[ext_resource type="Texture2D" uid="uid://cf7ujw6fc0t6r" path="res://addons/input/data/textures/keyboard/keyboard_t_outline.svg" id="134_6tg0p"]
+[ext_resource type="Texture2D" uid="uid://b4saifmmlwqgn" path="res://addons/input/data/textures/keyboard/keyboard_tab_icon_alternative_outline.svg" id="135_s4bw3"]
+[ext_resource type="Texture2D" uid="uid://chlky52mgu35h" path="res://addons/input/data/textures/keyboard/keyboard_u_outline.svg" id="136_l33ec"]
+[ext_resource type="Texture2D" uid="uid://bgybb2iigld05" path="res://addons/input/data/textures/keyboard/keyboard_arrow_up_outline.svg" id="137_bc8t5"]
+[ext_resource type="Texture2D" uid="uid://cksq641qgeft" path="res://addons/input/data/textures/keyboard/keyboard_v_outline.svg" id="138_adln0"]
+[ext_resource type="Texture2D" uid="uid://16tgxgdrnrqc" path="res://addons/input/data/textures/keyboard/keyboard_w_outline.svg" id="139_hygy3"]
+[ext_resource type="Texture2D" uid="uid://d3sjw3p7ux638" path="res://addons/input/data/textures/keyboard/keyboard_x_outline.svg" id="140_hqon8"]
+[ext_resource type="Texture2D" uid="uid://duc8id4vtfms3" path="res://addons/input/data/textures/keyboard/keyboard_y_outline.svg" id="141_l5fb1"]
+[ext_resource type="Texture2D" uid="uid://cw0bq0pdw56r" path="res://addons/input/data/textures/keyboard/keyboard_z_outline.svg" id="142_5swij"]
+[ext_resource type="Texture2D" uid="uid://d0pg8davvv1kf" path="res://addons/input/data/textures/keyboard/keyboard_outline.svg" id="143_4i61t"]
+[ext_resource type="Texture2D" uid="uid://8hy7msutqx8i" path="res://addons/input/data/textures/keyboard/keyboard_arrows.svg" id="144_sarsm"]
+[ext_resource type="Texture2D" uid="uid://yhwch0lo35wj" path="res://addons/input/data/textures/keyboard/keyboard_arrows_down_outline.svg" id="145_w0osp"]
+[ext_resource type="Texture2D" uid="uid://djfrpaobrdbki" path="res://addons/input/data/textures/keyboard/keyboard_arrows_left_outline.svg" id="146_nbn5n"]
+[ext_resource type="Texture2D" uid="uid://cl4j7g4lrv4or" path="res://addons/input/data/textures/keyboard/keyboard_arrows_right_outline.svg" id="147_8l6xy"]
+[ext_resource type="Texture2D" uid="uid://f8kcsml1oqhn" path="res://addons/input/data/textures/keyboard/keyboard_arrows_up_outline.svg" id="148_kfoqk"]
+[ext_resource type="Texture2D" uid="uid://bf6fdxw18qk1d" path="res://addons/input/data/textures/mouse/mouse_outline.svg" id="149_o02p4"]
+[ext_resource type="Texture2D" uid="uid://dqrjptshci6ga" path="res://addons/input/data/textures/mouse/mouse_move.svg" id="150_kdq2v"]
+[ext_resource type="Texture2D" uid="uid://cgnsc0d48pgnc" path="res://addons/input/data/textures/mouse/mouse_horizontal.svg" id="151_qo4tb"]
+[ext_resource type="Texture2D" uid="uid://drbeyfctfsue0" path="res://addons/input/data/textures/mouse/mouse_vertical.svg" id="152_tqmat"]
+[ext_resource type="Texture2D" uid="uid://c4w8jy5inuqq3" path="res://addons/input/data/textures/mouse/mouse_left_outline.svg" id="153_tryat"]
+[ext_resource type="Texture2D" uid="uid://ccasdyfmipw7k" path="res://addons/input/data/textures/mouse/mouse_scroll_outline.svg" id="154_krqkg"]
+[ext_resource type="Texture2D" uid="uid://bo01yw2mx0836" path="res://addons/input/data/textures/mouse/mouse_right_outline.svg" id="155_bl5mm"]
+[ext_resource type="Texture2D" uid="uid://qf8i5t2p8lp3" path="res://addons/input/data/textures/mouse/mouse_scroll_down_outline.svg" id="156_6sw15"]
+[ext_resource type="Texture2D" uid="uid://bhpy2xxn624ch" path="res://addons/input/data/textures/mouse/mouse_scroll_up_outline.svg" id="157_vq1h2"]
+[ext_resource type="Script" uid="uid://cioyegikxrqmd" path="res://addons/input/data/input_data.gd" id="158_hhrcg"]
+
+[sub_resource type="InputEventKey" id="InputEventKey_rmdak"]
+device = -1
+keycode = 4194322
+
+[sub_resource type="InputEventKey" id="InputEventKey_flcra"]
+device = -1
+keycode = 4194319
+
+[sub_resource type="InputEventKey" id="InputEventKey_h56q5"]
+device = -1
+keycode = 4194321
+
+[sub_resource type="InputEventKey" id="InputEventKey_ajdjv"]
+device = -1
+keycode = 4194320
+
+[resource]
+script = ExtResource("158_hhrcg")
+key_list = PackedInt32Array(4194319, 4194320, 4194321, 4194322, 4194309, 32, 4194325, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 4194332, 4194333, 4194334, 4194335, 4194336, 4194337, 4194338, 4194339, 4194340, 4194341, 4194342, 4194343, 43, 44, 45, 46, 61, 47, 4194306, 4194329, 4194308, 4194305, 4194328, 4194326, 91, 93, 92, 96, 4194311, 4194317, 4194312, 4194318, 4194323, 4194324, 4194330)
+data = Dictionary[String, Dictionary]({
+"actions": {
+"ignored_events": Dictionary[StringName, Array]({
+&"ui_down": [SubResource("InputEventKey_rmdak")],
+&"ui_left": [SubResource("InputEventKey_flcra")],
+&"ui_right": [SubResource("InputEventKey_h56q5")],
+&"ui_up": [SubResource("InputEventKey_ajdjv")]
+}),
+"sync": Dictionary[StringName, Array]({
+&"down": [&"ui_down"],
+&"jump": [&"ui_accept"],
+&"left": [&"ui_left"],
+&"right": [&"ui_right"],
+&"up": [&"ui_up"]
+})
+},
+"display_names": {
+"joy": Dictionary[int, String]({}),
+"mouse": Dictionary[int, String]({
+1: "MBL"
+})
+},
+"keyboard": {
+"fallback_texture": null,
+"key_list": Array[int]([4194319, 4194320, 4194321, 4194322, 4194309, 32, 4194325, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 4194332, 4194333, 4194334, 4194335, 4194336, 4194337, 4194338, 4194339, 4194340, 4194341, 4194342, 4194343, 43, 44, 45, 46, 61, 47, 4194306, 4194329, 4194308, 4194305, 4194328, 4194326, 91, 93, 92, 96, 4194311, 4194317, 4194312, 4194318, 4194323, 4194324, 4194330])
+},
+"textures": {
+"joy": {
+"default": {
+"a": ExtResource("1_flcra"),
+"b": ExtResource("2_h56q5"),
+"back": ExtResource("3_ajdjv"),
+"dpad_down": ExtResource("4_rmdak"),
+"dpad_left": ExtResource("5_0yr7u"),
+"dpad_right": ExtResource("6_31i7t"),
+"dpad_up": ExtResource("7_imhuh"),
+"guide": ExtResource("8_vs73h"),
+"left_shoulder": ExtResource("9_kp0md"),
+"left_stick": ExtResource("10_41vne"),
+"left_trigger": null,
+"ls_down": ExtResource("11_c8owc"),
+"ls_left": ExtResource("12_jk2hk"),
+"ls_right": ExtResource("13_wfq4b"),
+"ls_up": ExtResource("14_ov7w4"),
+"misc": ExtResource("15_vqquc"),
+"right_shoulder": ExtResource("16_td8mh"),
+"right_stick": ExtResource("17_4jfhs"),
+"right_trigger": null,
+"rs_down": ExtResource("18_f0sgk"),
+"rs_left": ExtResource("19_2ee7h"),
+"rs_right": ExtResource("20_8iy2d"),
+"rs_up": ExtResource("21_cmejk"),
+"start": ExtResource("22_4jmmi"),
+"trigger_left": ExtResource("23_52r0p"),
+"trigger_right": ExtResource("24_g1dwi"),
+"x": ExtResource("25_hr41r"),
+"y": ExtResource("26_874lp")
+},
+"generic": Dictionary[String, Texture2D]({
+"bottom_button": ExtResource("27_sed33"),
+"left_button": ExtResource("28_5p75k"),
+"right_button": ExtResource("29_fb0c1"),
+"top_button": ExtResource("30_p844x")
+}),
+"ps": {
+"a": ExtResource("31_ny0tp"),
+"b": ExtResource("32_qks8q"),
+"back": ExtResource("33_83q3c"),
+"dpad_down": ExtResource("34_ox45o"),
+"dpad_left": ExtResource("35_65851"),
+"dpad_right": ExtResource("36_glma4"),
+"dpad_up": ExtResource("37_111fk"),
+"guide": null,
+"left_shoulder": ExtResource("38_1ftra"),
+"left_stick": ExtResource("39_yjngv"),
+"left_trigger": ExtResource("40_dvmb5"),
+"misc": ExtResource("41_pgko1"),
+"right_shoulder": ExtResource("42_8ffa8"),
+"right_stick": ExtResource("43_y8cqe"),
+"right_trigger": ExtResource("44_pr1ux"),
+"start": ExtResource("45_pcek7"),
+"x": ExtResource("46_a0r16"),
+"y": ExtResource("47_ot18p")
+},
+"switch": {
+"a": ExtResource("48_x3qjr"),
+"b": ExtResource("49_88uhp"),
+"back": ExtResource("50_lxmf1"),
+"dpad_down": ExtResource("51_wt4fh"),
+"dpad_left": ExtResource("52_3yvw1"),
+"dpad_right": ExtResource("53_cyku6"),
+"dpad_up": ExtResource("54_r1qit"),
+"guide": null,
+"left_shoulder": ExtResource("55_gv22g"),
+"left_stick": ExtResource("56_l1rbj"),
+"left_trigger": ExtResource("57_k872o"),
+"misc": ExtResource("58_dg3xs"),
+"right_shoulder": ExtResource("59_s5qaa"),
+"right_stick": ExtResource("60_pmldm"),
+"right_trigger": ExtResource("61_b6ckt"),
+"start": ExtResource("62_a65w7"),
+"x": ExtResource("63_jqp8a"),
+"y": ExtResource("64_oqdob")
+},
+"xbox": {
+"a": ExtResource("1_flcra"),
+"b": ExtResource("2_h56q5"),
+"back": ExtResource("3_ajdjv"),
+"dpad_down": ExtResource("4_rmdak"),
+"dpad_left": ExtResource("5_0yr7u"),
+"dpad_right": ExtResource("6_31i7t"),
+"dpad_up": ExtResource("7_imhuh"),
+"guide": ExtResource("8_vs73h"),
+"left_shoulder": ExtResource("9_kp0md"),
+"left_stick": ExtResource("10_41vne"),
+"left_trigger": ExtResource("23_52r0p"),
+"ls_down": ExtResource("11_c8owc"),
+"ls_left": ExtResource("12_jk2hk"),
+"ls_right": ExtResource("13_wfq4b"),
+"ls_up": ExtResource("14_ov7w4"),
+"misc": ExtResource("15_vqquc"),
+"right_shoulder": ExtResource("16_td8mh"),
+"right_stick": ExtResource("17_4jfhs"),
+"right_trigger": ExtResource("24_g1dwi"),
+"rs_down": ExtResource("18_f0sgk"),
+"rs_left": ExtResource("19_2ee7h"),
+"rs_right": ExtResource("20_8iy2d"),
+"rs_up": ExtResource("21_cmejk"),
+"start": ExtResource("22_4jmmi"),
+"trigger_left": ExtResource("23_52r0p"),
+"trigger_right": ExtResource("24_g1dwi"),
+"x": ExtResource("25_hr41r"),
+"y": ExtResource("26_874lp")
+}
+},
+"keyboard": {
+"0": ExtResource("65_i0gnw"),
+"1": ExtResource("66_hp53f"),
+"2": ExtResource("67_i1s2f"),
+"3": ExtResource("68_b2exr"),
+"4": ExtResource("69_5ew47"),
+"5": ExtResource("70_hb1op"),
+"6": ExtResource("71_3g145"),
+"7": ExtResource("72_tugmf"),
+"8": ExtResource("73_5465g"),
+"9": ExtResource("74_l61gu"),
+"A": ExtResource("75_60anh"),
+"Alt": ExtResource("76_hy3wj"),
+"B": ExtResource("77_mthml"),
+"BackSlash": ExtResource("78_3wti2"),
+"Backspace": ExtResource("79_5kf2y"),
+"BracketLeft": ExtResource("80_fonlg"),
+"BracketRight": ExtResource("81_igoxi"),
+"C": ExtResource("82_veuxy"),
+"CapsLock": ExtResource("83_1i4rv"),
+"Comma": ExtResource("84_a0yup"),
+"Ctrl": ExtResource("85_wv440"),
+"D": ExtResource("86_l1quh"),
+"Delete": ExtResource("87_pcwk5"),
+"Down": ExtResource("88_0635y"),
+"E": ExtResource("89_jiwyd"),
+"End": ExtResource("90_v6nr8"),
+"Enter": ExtResource("91_mri27"),
+"Equal": ExtResource("92_yjyud"),
+"Escape": ExtResource("93_ceqlc"),
+"F": ExtResource("94_eq0hv"),
+"F1": ExtResource("95_06d5i"),
+"F10": ExtResource("96_0f6p1"),
+"F11": ExtResource("97_6ro1g"),
+"F12": ExtResource("98_oeqt7"),
+"F2": ExtResource("99_43vvp"),
+"F3": ExtResource("100_qtw3g"),
+"F4": ExtResource("101_xwpcl"),
+"F5": ExtResource("102_stq82"),
+"F6": ExtResource("103_xtyk8"),
+"F7": ExtResource("104_u2vm7"),
+"F8": ExtResource("105_0thtl"),
+"F9": ExtResource("106_fvrhf"),
+"G": ExtResource("107_e55qy"),
+"H": ExtResource("108_jcn7l"),
+"Home": ExtResource("109_8of31"),
+"I": ExtResource("110_chc8i"),
+"Insert": ExtResource("111_j7ulg"),
+"J": ExtResource("112_gbqp7"),
+"K": ExtResource("113_3y40p"),
+"L": ExtResource("114_mqs7p"),
+"Left": ExtResource("115_ctiyc"),
+"M": ExtResource("116_1juht"),
+"Minus": ExtResource("117_plxv5"),
+"N": ExtResource("118_6uwro"),
+"NumLock": ExtResource("119_qyvpl"),
+"O": ExtResource("120_ie0oo"),
+"P": ExtResource("121_5ip4e"),
+"PageDown": ExtResource("122_k1m4w"),
+"PageUp": ExtResource("123_mhp4b"),
+"Period": ExtResource("124_efm4w"),
+"Plus": ExtResource("125_xq7x6"),
+"Q": ExtResource("126_4cp2q"),
+"QuoteLeft": ExtResource("127_4yk1r"),
+"R": ExtResource("128_tdgws"),
+"Right": ExtResource("129_7canp"),
+"S": ExtResource("130_32h51"),
+"Shift": ExtResource("131_os3j4"),
+"Slash": ExtResource("132_b3yxp"),
+"Space": ExtResource("133_r8qua"),
+"T": ExtResource("134_6tg0p"),
+"Tab": ExtResource("135_s4bw3"),
+"U": ExtResource("136_l33ec"),
+"Up": ExtResource("137_bc8t5"),
+"V": ExtResource("138_adln0"),
+"W": ExtResource("139_hygy3"),
+"X": ExtResource("140_hqon8"),
+"Y": ExtResource("141_l5fb1"),
+"Z": ExtResource("142_5swij"),
+"generic": Dictionary[String, Texture2D]({
+"icon": ExtResource("143_4i61t"),
+"wasd_all": ExtResource("144_sarsm"),
+"wasd_down": ExtResource("145_w0osp"),
+"wasd_left": ExtResource("146_nbn5n"),
+"wasd_right": ExtResource("147_8l6xy"),
+"wasd_up": ExtResource("148_kfoqk")
+})
+},
+"mouse": {
+"extra_button_1": null,
+"extra_button_2": null,
+"generic": Dictionary[String, Texture2D]({
+"icon": ExtResource("149_o02p4"),
+"move": ExtResource("150_kdq2v"),
+"move_horizontal": ExtResource("151_qo4tb"),
+"move_vertical": ExtResource("152_tqmat")
+}),
+"left": ExtResource("153_tryat"),
+"middle": ExtResource("154_krqkg"),
+"right": ExtResource("155_bl5mm"),
+"wheel_down": ExtResource("156_6sw15"),
+"wheel_left": null,
+"wheel_right": null,
+"wheel_up": ExtResource("157_vq1h2")
+}
+}
+})
+actions/sync = Dictionary[StringName, Array]({
+&"down": [&"ui_down"],
+&"jump": [&"ui_accept"],
+&"left": [&"ui_left"],
+&"right": [&"ui_right"],
+&"up": [&"ui_up"]
+})
+actions/ignored_events = Dictionary[StringName, Array]({
+&"ui_down": [SubResource("InputEventKey_rmdak")],
+&"ui_left": [SubResource("InputEventKey_flcra")],
+&"ui_right": [SubResource("InputEventKey_h56q5")],
+&"ui_up": [SubResource("InputEventKey_ajdjv")]
+})
+keyboard/key_list = Array[int]([4194319, 4194320, 4194321, 4194322, 4194309, 32, 4194325, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 4194332, 4194333, 4194334, 4194335, 4194336, 4194337, 4194338, 4194339, 4194340, 4194341, 4194342, 4194343, 43, 44, 45, 46, 61, 47, 4194306, 4194329, 4194308, 4194305, 4194328, 4194326, 91, 93, 92, 96, 4194311, 4194317, 4194312, 4194318, 4194323, 4194324, 4194330])
+textures/keyboard/generic = Dictionary[String, Texture2D]({
+"icon": ExtResource("143_4i61t"),
+"wasd_all": ExtResource("144_sarsm"),
+"wasd_down": ExtResource("145_w0osp"),
+"wasd_left": ExtResource("146_nbn5n"),
+"wasd_right": ExtResource("147_8l6xy"),
+"wasd_up": ExtResource("148_kfoqk")
+})
+textures/mouse/generic = Dictionary[String, Texture2D]({
+"icon": ExtResource("149_o02p4"),
+"move": ExtResource("150_kdq2v"),
+"move_horizontal": ExtResource("151_qo4tb"),
+"move_vertical": ExtResource("152_tqmat")
+})
+textures/joy/generic = Dictionary[String, Texture2D]({
+"bottom_button": ExtResource("27_sed33"),
+"left_button": ExtResource("28_5p75k"),
+"right_button": ExtResource("29_fb0c1"),
+"top_button": ExtResource("30_p844x")
+})
+textures/keyboard/Left = ExtResource("115_ctiyc")
+textures/keyboard/Up = ExtResource("137_bc8t5")
+textures/keyboard/Right = ExtResource("129_7canp")
+textures/keyboard/Down = ExtResource("88_0635y")
+textures/keyboard/Enter = ExtResource("91_mri27")
+textures/keyboard/Space = ExtResource("133_r8qua")
+textures/keyboard/Shift = ExtResource("131_os3j4")
+textures/keyboard/A = ExtResource("75_60anh")
+textures/keyboard/B = ExtResource("77_mthml")
+textures/keyboard/C = ExtResource("82_veuxy")
+textures/keyboard/D = ExtResource("86_l1quh")
+textures/keyboard/E = ExtResource("89_jiwyd")
+textures/keyboard/F = ExtResource("94_eq0hv")
+textures/keyboard/G = ExtResource("107_e55qy")
+textures/keyboard/H = ExtResource("108_jcn7l")
+textures/keyboard/I = ExtResource("110_chc8i")
+textures/keyboard/J = ExtResource("112_gbqp7")
+textures/keyboard/K = ExtResource("113_3y40p")
+textures/keyboard/L = ExtResource("114_mqs7p")
+textures/keyboard/M = ExtResource("116_1juht")
+textures/keyboard/N = ExtResource("118_6uwro")
+textures/keyboard/O = ExtResource("120_ie0oo")
+textures/keyboard/P = ExtResource("121_5ip4e")
+textures/keyboard/Q = ExtResource("126_4cp2q")
+textures/keyboard/R = ExtResource("128_tdgws")
+textures/keyboard/S = ExtResource("130_32h51")
+textures/keyboard/T = ExtResource("134_6tg0p")
+textures/keyboard/U = ExtResource("136_l33ec")
+textures/keyboard/V = ExtResource("138_adln0")
+textures/keyboard/W = ExtResource("139_hygy3")
+textures/keyboard/X = ExtResource("140_hqon8")
+textures/keyboard/Y = ExtResource("141_l5fb1")
+textures/keyboard/Z = ExtResource("142_5swij")
+textures/keyboard/0 = ExtResource("65_i0gnw")
+textures/keyboard/1 = ExtResource("66_hp53f")
+textures/keyboard/2 = ExtResource("67_i1s2f")
+textures/keyboard/3 = ExtResource("68_b2exr")
+textures/keyboard/4 = ExtResource("69_5ew47")
+textures/keyboard/5 = ExtResource("70_hb1op")
+textures/keyboard/6 = ExtResource("71_3g145")
+textures/keyboard/7 = ExtResource("72_tugmf")
+textures/keyboard/8 = ExtResource("73_5465g")
+textures/keyboard/9 = ExtResource("74_l61gu")
+textures/keyboard/F1 = ExtResource("95_06d5i")
+textures/keyboard/F2 = ExtResource("99_43vvp")
+textures/keyboard/F3 = ExtResource("100_qtw3g")
+textures/keyboard/F4 = ExtResource("101_xwpcl")
+textures/keyboard/F5 = ExtResource("102_stq82")
+textures/keyboard/F6 = ExtResource("103_xtyk8")
+textures/keyboard/F7 = ExtResource("104_u2vm7")
+textures/keyboard/F8 = ExtResource("105_0thtl")
+textures/keyboard/F9 = ExtResource("106_fvrhf")
+textures/keyboard/F10 = ExtResource("96_0f6p1")
+textures/keyboard/F11 = ExtResource("97_6ro1g")
+textures/keyboard/F12 = ExtResource("98_oeqt7")
+textures/keyboard/Plus = ExtResource("125_xq7x6")
+textures/keyboard/Comma = ExtResource("84_a0yup")
+textures/keyboard/Minus = ExtResource("117_plxv5")
+textures/keyboard/Period = ExtResource("124_efm4w")
+textures/keyboard/Equal = ExtResource("92_yjyud")
+textures/keyboard/Slash = ExtResource("132_b3yxp")
+textures/keyboard/Tab = ExtResource("135_s4bw3")
+textures/keyboard/CapsLock = ExtResource("83_1i4rv")
+textures/keyboard/Backspace = ExtResource("79_5kf2y")
+textures/keyboard/Escape = ExtResource("93_ceqlc")
+textures/keyboard/Alt = ExtResource("76_hy3wj")
+textures/keyboard/Ctrl = ExtResource("85_wv440")
+textures/keyboard/BracketLeft = ExtResource("80_fonlg")
+textures/keyboard/BracketRight = ExtResource("81_igoxi")
+textures/keyboard/BackSlash = ExtResource("78_3wti2")
+textures/keyboard/QuoteLeft = ExtResource("127_4yk1r")
+textures/keyboard/Insert = ExtResource("111_j7ulg")
+textures/keyboard/Home = ExtResource("109_8of31")
+textures/keyboard/Delete = ExtResource("87_pcwk5")
+textures/keyboard/End = ExtResource("90_v6nr8")
+textures/keyboard/PageUp = ExtResource("123_mhp4b")
+textures/keyboard/PageDown = ExtResource("122_k1m4w")
+textures/keyboard/NumLock = ExtResource("119_qyvpl")
+textures/mouse/left = ExtResource("153_tryat")
+textures/mouse/right = ExtResource("155_bl5mm")
+textures/mouse/middle = ExtResource("154_krqkg")
+textures/mouse/wheel_up = ExtResource("157_vq1h2")
+textures/mouse/wheel_down = ExtResource("156_6sw15")
+textures/joy/default/a = ExtResource("1_flcra")
+textures/joy/default/b = ExtResource("2_h56q5")
+textures/joy/default/x = ExtResource("25_hr41r")
+textures/joy/default/y = ExtResource("26_874lp")
+textures/joy/default/dpad_up = ExtResource("7_imhuh")
+textures/joy/default/dpad_down = ExtResource("4_rmdak")
+textures/joy/default/dpad_left = ExtResource("5_0yr7u")
+textures/joy/default/dpad_right = ExtResource("6_31i7t")
+textures/joy/default/left_shoulder = ExtResource("9_kp0md")
+textures/joy/default/right_shoulder = ExtResource("16_td8mh")
+textures/joy/default/back = ExtResource("3_ajdjv")
+textures/joy/default/start = ExtResource("22_4jmmi")
+textures/joy/default/left_stick = ExtResource("10_41vne")
+textures/joy/default/right_stick = ExtResource("17_4jfhs")
+textures/joy/default/guide = ExtResource("8_vs73h")
+textures/joy/default/misc = ExtResource("15_vqquc")
+textures/joy/default/ls_left = ExtResource("12_jk2hk")
+textures/joy/default/ls_right = ExtResource("13_wfq4b")
+textures/joy/default/ls_up = ExtResource("14_ov7w4")
+textures/joy/default/ls_down = ExtResource("11_c8owc")
+textures/joy/default/rs_left = ExtResource("19_2ee7h")
+textures/joy/default/rs_right = ExtResource("20_8iy2d")
+textures/joy/default/rs_up = ExtResource("21_cmejk")
+textures/joy/default/rs_down = ExtResource("18_f0sgk")
+textures/joy/default/trigger_left = ExtResource("23_52r0p")
+textures/joy/default/trigger_right = ExtResource("24_g1dwi")
+textures/joy/xbox/a = ExtResource("1_flcra")
+textures/joy/xbox/b = ExtResource("2_h56q5")
+textures/joy/xbox/x = ExtResource("25_hr41r")
+textures/joy/xbox/y = ExtResource("26_874lp")
+textures/joy/xbox/dpad_up = ExtResource("7_imhuh")
+textures/joy/xbox/dpad_down = ExtResource("4_rmdak")
+textures/joy/xbox/dpad_left = ExtResource("5_0yr7u")
+textures/joy/xbox/dpad_right = ExtResource("6_31i7t")
+textures/joy/xbox/left_shoulder = ExtResource("9_kp0md")
+textures/joy/xbox/right_shoulder = ExtResource("16_td8mh")
+textures/joy/xbox/back = ExtResource("3_ajdjv")
+textures/joy/xbox/start = ExtResource("22_4jmmi")
+textures/joy/xbox/left_stick = ExtResource("10_41vne")
+textures/joy/xbox/right_stick = ExtResource("17_4jfhs")
+textures/joy/xbox/guide = ExtResource("8_vs73h")
+textures/joy/xbox/misc = ExtResource("15_vqquc")
+textures/joy/xbox/ls_left = ExtResource("12_jk2hk")
+textures/joy/xbox/ls_right = ExtResource("13_wfq4b")
+textures/joy/xbox/ls_up = ExtResource("14_ov7w4")
+textures/joy/xbox/ls_down = ExtResource("11_c8owc")
+textures/joy/xbox/rs_left = ExtResource("19_2ee7h")
+textures/joy/xbox/rs_right = ExtResource("20_8iy2d")
+textures/joy/xbox/rs_up = ExtResource("21_cmejk")
+textures/joy/xbox/rs_down = ExtResource("18_f0sgk")
+textures/joy/xbox/trigger_left = ExtResource("23_52r0p")
+textures/joy/xbox/trigger_right = ExtResource("24_g1dwi")
+textures/joy/ps/a = ExtResource("31_ny0tp")
+textures/joy/ps/b = ExtResource("32_qks8q")
+textures/joy/ps/x = ExtResource("46_a0r16")
+textures/joy/ps/y = ExtResource("47_ot18p")
+textures/joy/ps/dpad_up = ExtResource("37_111fk")
+textures/joy/ps/dpad_down = ExtResource("34_ox45o")
+textures/joy/ps/dpad_left = ExtResource("35_65851")
+textures/joy/ps/dpad_right = ExtResource("36_glma4")
+textures/joy/ps/left_shoulder = ExtResource("38_1ftra")
+textures/joy/ps/right_shoulder = ExtResource("42_8ffa8")
+textures/joy/ps/back = ExtResource("33_83q3c")
+textures/joy/ps/start = ExtResource("45_pcek7")
+textures/joy/ps/left_stick = ExtResource("39_yjngv")
+textures/joy/ps/right_stick = ExtResource("43_y8cqe")
+textures/joy/ps/misc = ExtResource("41_pgko1")
+textures/joy/switch/a = ExtResource("48_x3qjr")
+textures/joy/switch/b = ExtResource("49_88uhp")
+textures/joy/switch/x = ExtResource("63_jqp8a")
+textures/joy/switch/y = ExtResource("64_oqdob")
+textures/joy/switch/dpad_up = ExtResource("54_r1qit")
+textures/joy/switch/dpad_down = ExtResource("51_wt4fh")
+textures/joy/switch/dpad_left = ExtResource("52_3yvw1")
+textures/joy/switch/dpad_right = ExtResource("53_cyku6")
+textures/joy/switch/left_shoulder = ExtResource("55_gv22g")
+textures/joy/switch/right_shoulder = ExtResource("59_s5qaa")
+textures/joy/switch/back = ExtResource("50_lxmf1")
+textures/joy/switch/start = ExtResource("62_a65w7")
+textures/joy/switch/left_stick = ExtResource("56_l1rbj")
+textures/joy/switch/right_stick = ExtResource("60_pmldm")
+textures/joy/switch/misc = ExtResource("58_dg3xs")
